@@ -15,6 +15,12 @@ This is how the integration between the Shelly wireless motion detector and View
 - The javascript code makes an HTTP Post (webhook API) to trigger a virtual alarm on the NVR.
 - The virtual alarm on the NVR can trigger video surveillance recording, mobile app push notification, an audio alarm, and many other alarm actions.
 
+## Step by Step Setup Instructions
+
+You can find step-by-step setup instructions with screenshots on this page. Please note that a Shelly BLU wireless door sensor is used in those setup instructions, but the process is the same except that you will install the script from this project to your Shelly BLU motion sensor. https://github.com/mikehaldas/shelly-wireless-motion-sensor/blob/main/script.js
+
+https://videos.cctvcamerapros.com/v/wireless-door-sensor-alarm.html
+
 ## Viewtron IP Camera NVRs
 
 You can find all of the Viewtron NVRs that support the virtual alarm API that work with this integration script on this page.
