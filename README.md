@@ -17,8 +17,12 @@ This is how the integration between the Shelly wireless motion detector and View
 
 ## Step by Step Setup Instructions
 
-You can find step-by-step setup instructions with screenshots on this page. Please note that a Shelly BLU wireless door sensor is used in those setup instructions, but the process is the same except that you will install the script from this project to your Shelly BLU motion sensor. https://github.com/mikehaldas/shelly-wireless-motion-sensor/blob/main/script.js
+You can find step-by-step setup instructions with screenshots on this page. Please note that a Shelly BLU wireless door sensor is used in those setup instructions, but the process is the same except that you will install the script from this project to your Shelly BLU motion sensor.
 
+Script here.
+https://github.com/mikehaldas/shelly-wireless-motion-sensor/blob/main/script.js
+
+Instructions here.
 https://videos.cctvcamerapros.com/v/wireless-door-sensor-alarm.html
 
 ## Viewtron IP Camera NVRs
