@@ -11,9 +11,9 @@ This is how the integration between the Shelly wireless motion detector and View
 - The Shelly wireless motion sensor communicates with a Shelly BLU wireless Gateway via Bluetooth.
 - The Shelly Blu Gateway (pictured in the middle, plugged into a standard power outlet) is connected via WIFI to the same network that the Viewtron NVR is on.
 - The NVR is hard wired to the wireless router.
-- The custom javascript code from this repository is installed on the Shelly Gateway. This code is triggered when the door sensor is opened.
+- The custom javascript code from this repository is installed on the Shelly Gateway. This code is triggered when the motion sensor detects motion.
 - The javascript code makes an HTTP Post (webhook API) to trigger a virtual alarm on the NVR.
-- The virtual alarm on the NVR can trigger video surveillance recording, mobile app push notification, an audio alarm, and many other alarm actions.
+- The virtual alarm on the NVR can trigger video surveillance recording (all of the events are bookmarked on the video timeline), mobile app push notification, an audio alarm, and many other alarm actions.
 
 ## Step by Step Setup Instructions
 
