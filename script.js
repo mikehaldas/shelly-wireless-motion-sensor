@@ -103,7 +103,7 @@ BLE.Scanner.Subscribe(function(event, result) {
     print("MOTION DETECTED: Sending HTTP Post to Viewtron NVR");
 
     Shelly.call("HTTP.POST", {
-      API_ENDPOINT: "http://" + USERNAME + ":" + PASSWORD + "@" + NVR_IP + ":" + NVR_PORT + "/TriggerVirtualAlarm/" + NVR_ALARM_PORT,
+      url: API_ENDPOINT,
       body: XML,
       content_type: "text/xml"
     }, function(res, err) {
